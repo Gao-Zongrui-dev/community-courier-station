@@ -1,5 +1,4 @@
 package src.service;
-
 import src.entity.Package;
 import java.util.List;
 
@@ -48,5 +47,6 @@ public interface PackageService {
      * @return 6位数字取件码
      */
     String generatePickupCode();
+    //增加批量入库的方法
 }
 
